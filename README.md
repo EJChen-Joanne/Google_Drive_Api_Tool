@@ -2,8 +2,6 @@
 
 ***This is an usage of Google Drive Api to let you easily upload and download files***
 
-**Cooperator:Joe Huang**
-
 ## Feature
 
 ***The following shows what this tool could fulfill......***
@@ -16,7 +14,7 @@
 + Download:
   + Download files and directories into a designated local path
 
-> *Note: Both upload and download support working with several files and directories at one time*
+> *Note: Both upload and download support working with several files and directories at one time (nested uploading and downloading)*
 
 + List: 
   + Display metadata of files under a designated directory and stored into `list.json`
@@ -30,7 +28,7 @@
 
 ### 2. Create credentials:
 
-Please follow the direction : [建立憑證](./建立Google Drive API憑證.pdf)
+Please follow the direction : [建立憑證](./建立憑證.pdf)
 
 Visit [Google Developers Console](https://console.developers.google.com/) and apply for the credentials. 
 
@@ -56,7 +54,7 @@ $ pip3 install -r requirements.txt
 $ python -m gdrivetool [function] {[arg1] [arg2]...}
 ```
 
-You can follow the direction : [使用手冊](./Google Drive Api小工具使用手冊.pdf) or read the following simple instructions.
+You can follow the direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions.
 
 #### (1) Authenticate / Update content of API:
 
